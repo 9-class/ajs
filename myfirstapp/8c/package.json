@@ -1,26 +1,21 @@
 {
     "version": "1.0.0",
-    "name": "8c",
-    "app-name": "8c",
-    "package-name": "webview",
-    "project-type": "webview",
-    "icon": "./assets/icon/icon.png",
+    "name": "8c-app",
+    "app-name": "8c-app",
+    "package-name": "static_app",
+    "project-type": "static",
+    "icon": "./assets/icon/logo.png",
     "dist-path": "./dist",
     "permission": [
         "android.permission.INTERNET"
     ],
     "description": "",
-    "main": "main.js",
-    "scripts": {
-        "start:dev": "node .",
-        "build": "androidjs build"
-    },
     "author": "",
     "license": "ISC",
-    "dependencies": {
-        "androidjs": "^2.0.2"
+    "scripts": {
+        "build": "androidjs build"
     },
-    "project-name": "8c",
+    "project-name": "8c-app",
     "theme": {
         "fullScreen": true
     }
